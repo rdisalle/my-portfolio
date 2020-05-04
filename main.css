@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: darkgrey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 25px;
+}
+
+footer {
+    background-color: darkgrey;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.opening {
+    background-color: lightgrey;
+    margin-top: 25px;
+    height: 100px;
+    padding: 10px; 
+}
+
+section {
+    background-color: lightgrey;
+    padding: 10px; 
+    margin-top: 5px; 
+    height: 100px;
+}
