@@ -3,45 +3,42 @@
 <head>
     <title>My Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kadwa&display=swap" rel="stylesheet">
 </head>
 <body>
 
-
-
 <!-- Nav Bar-->
-    <nav role="navbar">
+    <nav>
+        <img class="myPic" src="ryan_image.jpg" alt="My Picture">
         <h1 class="name"><a class="navColor" href="#opening">Ryan DiSalle</a></h1>
             <ul class="topList">
-                <li class="listOne">|<a class="navColor" href="#about">About</a> | </li>
-                <li class="listOne"><a class="navColor" href="#projects">Projects</a> | </li>
-                <li class="listOne"><a class="navColor" href="#contact">Contact</a></li>   
+                <li class="listOne">|<a class="navColor jumper" href="#about">About</a> | </li>
+                <li class="listOne"><a class="navColor jumper" href="#projects">Projects</a> | </li>
+                <li class="listOne"><a class="navColor jumper" href="#contact">Contact</a></li>   
             </ul>
      </nav>
-
 
 <!-- Opening Page -->
     <main class="main">
         <header id="opening">
-            <h1 class="welcome">Welcome!</h1>
-            <h2 class="myName">My name is Ryan!</h2>
-            <h3 class="standardText">I am a full stack developer and an enthusiastic problem solver.</h3>
+            <h2 class="welcome">Welcome!</h2>
+            <h3 class="myName">My name is Ryan!</h3>
+            <h4 class="standardText">I am a full stack developer and an enthusiastic problem solver.</h4>
         </header>
 
 <!-- About me Page-->
         <section id="about">
-            <h1 class="aboutMe">About:</h1>
-            <p class="aboutText">I am a web developer and recently graduated from the web development boot camp with bloc.io. I love coding because it gives me the freedom to explore and problem solve openly. I enjoy that I can directly see my work come to life.</p>                               
-            <p class="aboutText">When I’m not coding, I thoroughly enjoy doing just about anything outdoors. From relaxing on a patio to golf and fitness, I will do anything to get outside. I also love to work out and try to make it to the gym as much as I can during the week. </p>
+            <h2 class="aboutMe">About:</h2>
+            <p class="aboutText">I am a web developer and recently graduated from the web development boot camp with bloc.io. I love coding because it gives me the freedom to explore and problem solve openly. I enjoy that I can directly see my work come to life. I'm looking forward to collaborating with other great programmers in the future.</p>                               
+            <p class="aboutText">When I’m not coding, I thoroughly enjoy doing just about anything outdoors. From relaxing on a patio to golf and fitness, I will do anything to get outside.</p>
         </section>
 
 <!-- Projects Page-->
         <section id="projects">
-            <h1 class="projectViews">Projects:</h1>
-            <h2 class="title">Quiz App</h2>
+            <h2 class="projectViews">Projects:</h2>
+            <h3 class="title">Quiz App</h3>
             <img class="quiz-app" src="quiz-app.png" alt="Quiz App">
             <p class="projectText">The quiz app is an app that allows you to complete a US History quiz. It tests your knowledge of what you know about US History. The quiz gives you ten questions, with four answer choices per question. At the end, it will provide you with your results and let you retake the quiz if you would like. </p>
             <P class="projectText skills">HTML, CSS, JavaScript, jQuery, git, GitHub</P>
@@ -51,7 +48,7 @@
 
 <!--Contact Info Page-->
         <section id="contact">
-            <h1 class="contactMe">Contact:</h1>
+            <h2 class="contactMe">Contact:</h2>
             <ul class="contactInfo">
                 <li class="listTwo">Email: <a  class="linkColor" href="mailto:ryanjdisalle@gmail.com">ryanjdisalle@gmail.com</a></li>
                 <li class="listTwo">Phone: (678) 646-2512</li>
@@ -62,13 +59,15 @@
     </main>
 
 <!--Footer/Links to my stuff-->
-    <footer role="links">
+    <footer>
         <ul class="footThree">
             <li class="listThree"><a target=_blank href="https://github.com/rdisalle"><img class="logo" src="github.png" alt="GitHub Logo"></a></li>
             <li class="listThree"><a target=_blank href="https://www.linkedin.com/in/ryan-disalle-b3a372115"><img class="logo" src="LI-In-Bug.png" alt="LinkedIn Logo"></a></li>
             <li class="listThree"><a href="mailto:ryanjdisalle@gmail.com"><img class="logo" src="gmail_icon.png" alt="Gmail Logo"></a></li>
         </ul>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
 

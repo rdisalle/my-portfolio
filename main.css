@@ -6,8 +6,11 @@ body {
     margin-bottom: 40px;
     margin-top: 60px;
     font-size: 0;
-    font-family: 'Kanit', sans-serif;
-    background-color: white;
+    font-family: 'Kadwa', serif;
+    background-image: url("abstract-architecture-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
 }
 
 nav {
@@ -24,20 +27,25 @@ nav {
     color: white;
 }
 
+.myPic {
+    display: none;
+}
+
 .name {
     position: absolute;
-    font-size: 22px;
-    margin-top: 20px;
+    font-size: 22px;    
     padding-left: 2px;
     color: black;
+    display: inline-block;
+    top: -5px;
 }
 
 .topList {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-top: 20px;
-    padding-right: 2px;
+    padding-right: 4px;
+    margin-top: 23px;
 }
 
 li {
@@ -47,7 +55,7 @@ li {
 .listOne {
     margin-top: 1px;
     margin-bottom: 1px;
-    font-size: 16px;
+    font-size: 14px;
     color: #465059;
 }
 
@@ -56,10 +64,11 @@ li {
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    margin-top: 10px;
     margin-bottom: 10px;
-    height: 150px;
+    height: 200px;
     text-align: center;
+    background-color: #103B73;
+    color: white;
 }
 
 .welcome {
@@ -68,37 +77,41 @@ li {
 
 .myName {
     font-size: 25px;
+    margin: 0;
 }
 
 .standardText {
     font-size: 17px;
+    margin-top: 4px;
 }
 
-.welcome, .aboutMe, .projectViews .contactMe {
+.welcome, .aboutMe, .projectViews, .contactMe {
     text-decoration: underline;
 }
 
-section, #opening{
+section, #opening {
     border: #103B73 2.5px solid;
     border-radius: 5px;
     margin-bottom: 10px;
 }
 
 #about {
-    height: 480px;
+    height: 705px;
+    background-color: lightgray;
 }
 
 .aboutMe, .projectViews, .contactMe {
     padding-left: 5px;
     margin-top: 10px;
+    margin-bottom: 0;
     font-size: 22px;
     text-align: left;
 }
 
 #projects {
-    margin-top: 0;
-    height: 705px;
+    height: 915px;
     text-align: center;
+    background-color: lightgray;;
 }
 
 .aboutText, .projectText, .contactInfo {
@@ -108,10 +121,12 @@ section, #opening{
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: left;
+    color: #465059;
 }
 
 .title {
     font-size: 19px;
+    margin-top: 0;
 }
 
 .quiz-app {
@@ -129,7 +144,8 @@ section, #opening{
 }
 
 #contact {
-    height: 180px;
+    height: 235px;
+    background-color: lightgray;;
 }
 
 .listTwo {
@@ -155,11 +171,180 @@ footer {
     padding-top: 7px;
 }
 
-.listThree {
-    font-size: 10px;
-}
-
 .logo {
     width: 15px;
     height: auto;
+}
+
+@media only screen and (min-width: 400px) {
+    #about {
+        height: 570px;
+    }
+    #projects {
+        height: 815px;
+    }
+    .myPic {
+        display: inline-block;
+        width: 35px;
+        height: auto;
+        position: absolute;
+        margin: 8px;
+        border: #465059 1px solid;
+        border-radius: 50%;
+    }
+    .name {
+        left: 50px;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    #opening {
+        height: 195px;
+    }
+    #about {
+        height: 395px;
+    }
+    #projects {
+        height: 710px;
+    }
+    .name {
+        font-size: 30px;
+        margin-top: 6px;
+    }
+    .myPic {
+        display: inline-block;
+        width: 35px;
+        height: auto;
+        position: absolute;
+        margin: 8px;
+        border: #465059 1px solid;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #opening, #about, #projects, #contact {
+       margin-right: 20px;
+       margin-left: 20px;
+    }
+    .welcome {
+        font-size: 30px;
+    }
+    .myName {
+        margin-top: 15px;
+        font-size: 35px;
+    }
+    .standardText {
+        font-size: 25px;
+    }
+    #opening {
+        height: 245px;
+    }
+    .aboutMe, .projectViews, .contactMe {
+        font-size: 30px;
+    }
+    .aboutText, .projectText, .contactInfo {
+        font-size: 22px;
+    }
+    #contact {
+        height: 285px;
+    }
+    #projects {
+        height: 720px;
+    }
+    #about {
+        height: 370px;
+    }
+    .listOne {
+        font-size: 20px;
+    }
+    .topList {
+        margin-top: 15px;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .projectLink {
+        font-size: 22px;
+    }
+    .myPic {
+        display: inline-block;
+        width: 37px;
+        height: auto;
+        position: absolute;
+        margin: 6px;
+        border: #465059 1px solid;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .name {
+        font-size: 40px;
+        top: -20px;
+        left: 50px;
+    }
+    .listOne {
+        font-size: 22px;
+    }
+    .topList {
+        margin-top: 12px;
+    }
+    #opening, #about, #projects, #contact {
+        margin-right: 100px;
+        margin-left: 100px;
+     }
+     .aboutMe, .projectViews, .contactMe {
+        font-size: 32px;
+    }
+     .aboutText, .projectText, .contactInfo {
+        font-size: 23px;
+        line-height: 40px;
+    }
+    .welcome {
+        font-size: 32px;
+    }
+    .myName {
+        font-size: 37px;
+    }
+    .standardText {
+        font-size: 27px;
+        margin-top: 10px;
+    }
+    .title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .quiz-app {
+        width: 340px;
+        height: auto;
+    }
+    .projectLink {
+        font-size: 24px;
+    }
+    .logo {
+        width: 20px;
+        height: auto;
+    }
+    #opening {
+        height: 250px;
+    }
+    #projects {
+        height: 770px;
+    }
+    #contact {
+        height: 280px;
+    }
+    #about {
+        height: 350px;
+    }
+    .myPic {
+        display: inline-block;
+        width: 40px;
+        height: auto;
+        position: absolute;
+        margin: 4px;
+        border: #465059 1px solid;
+        border-radius: 50%;
+    }
 }
