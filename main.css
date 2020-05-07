@@ -3,35 +3,163 @@
   }
 
 body {
-    text-align: center;
-    color: white;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    font-size: 0;
+    font-family: 'Kanit', sans-serif;
+    background-color: white;
 }
 
 nav {
-    background-color: darkgrey;
+    background-color: #BFB3A4;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 25px;
+    height: 50px;
+    border-bottom: #465059 2px solid;
+}
+
+.navColor {
+    color: white;
+}
+
+.name {
+    position: absolute;
+    font-size: 22px;
+    margin-top: 20px;
+    padding-left: 2px;
+    color: black;
+}
+
+.topList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding-right: 2px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.listOne {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 16px;
+    color: #465059;
+}
+
+#opening {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+    text-align: center;
+}
+
+.welcome {
+    font-size: 20px;
+}
+
+.myName {
+    font-size: 25px;
+}
+
+.standardText {
+    font-size: 17px;
+}
+
+.welcome, .aboutMe, .projectViews .contactMe {
+    text-decoration: underline;
+}
+
+section, #opening{
+    border: #103B73 2.5px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#about {
+    height: 480px;
+}
+
+.aboutMe, .projectViews, .contactMe {
+    padding-left: 5px;
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: left;
+}
+
+#projects {
+    margin-top: 0;
+    height: 705px;
+    text-align: center;
+}
+
+.aboutText, .projectText, .contactInfo {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.title {
+    font-size: 19px;
+}
+
+.quiz-app {
+    width: 280px;
+    height: auto;
+}
+
+.projectLink {
+    font-size: 19px;
+    text-align: center;
+}
+
+.linkColor {
+    color: #465059;
+}
+
+#contact {
+    height: 180px;
+}
+
+.listTwo {
+    padding-bottom: 5px;
 }
 
 footer {
-    background-color: darkgrey;
-    padding: 10px;
-    margin-top: 5px;
+    background-color: #BFB3A4;
+    position: fixed;
+    height: 30px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    border-top: #465059 2px solid
 }
 
-.opening {
-    background-color: lightgrey;
-    margin-top: 25px;
-    height: 100px;
-    padding: 10px; 
+.footThree {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0;
+    padding-top: 7px;
 }
 
-section {
-    background-color: lightgrey;
-    padding: 10px; 
-    margin-top: 5px; 
-    height: 100px;
+.listThree {
+    font-size: 10px;
+}
+
+.logo {
+    width: 15px;
+    height: auto;
 }

@@ -1,35 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My Portfolio wireframe</title>
+    <title>My Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav role="navigation">Nav</nav>
+
+
+
+<!-- Nav Bar-->
+    <nav role="navbar">
+        <h1 class="name"><a class="navColor" href="#opening">Ryan DiSalle</a></h1>
+            <ul class="topList">
+                <li class="listOne">|<a class="navColor" href="#about">About</a> | </li>
+                <li class="listOne"><a class="navColor" href="#projects">Projects</a> | </li>
+                <li class="listOne"><a class="navColor" href="#contact">Contact</a></li>   
+            </ul>
+     </nav>
+
+
+<!-- Opening Page -->
     <main class="main">
-        <header class="opening">
-            <h1>Hero</h1>
+        <header id="opening">
+            <h1 class="welcome">Welcome!</h1>
+            <h2 class="myName">My name is Ryan!</h2>
+            <h3 class="standardText">I am a full stack developer and an enthusiastic problem solver.</h3>
         </header>
 
-        <section>
-            About Me
+<!-- About me Page-->
+        <section id="about">
+            <h1 class="aboutMe">About:</h1>
+            <p class="aboutText">I am a web developer and recently graduated from the web development boot camp with bloc.io. I love coding because it gives me the freedom to explore and problem solve openly. I enjoy that I can directly see my work come to life.</p>                               
+            <p class="aboutText">When I’m not coding, I thoroughly enjoy doing just about anything outdoors. From relaxing on a patio to golf and fitness, I will do anything to get outside. I also love to work out and try to make it to the gym as much as I can during the week. </p>
         </section>
 
-        <section>
-            Projects
+<!-- Projects Page-->
+        <section id="projects">
+            <h1 class="projectViews">Projects:</h1>
+            <h2 class="title">Quiz App</h2>
+            <img class="quiz-app" src="quiz-app.png" alt="Quiz App">
+            <p class="projectText">The quiz app is an app that allows you to complete a US History quiz. It tests your knowledge of what you know about US History. The quiz gives you ten questions, with four answer choices per question. At the end, it will provide you with your results and let you retake the quiz if you would like. </p>
+            <P class="projectText skills">HTML, CSS, JavaScript, jQuery, git, GitHub</P>
+            <a class="projectLink linkColor" target=_blank href="https://rdisalle.github.io/quiz-app-us-history/">Live | </a>
+            <a class="projectLink linkColor" target=_blank href="https://github.com/rdisalle/quiz-app-us-history">GitHub</a>
         </section>
 
-        <section>
-            Project 1
+<!--Contact Info Page-->
+        <section id="contact">
+            <h1 class="contactMe">Contact:</h1>
+            <ul class="contactInfo">
+                <li class="listTwo">Email: <a  class="linkColor" href="mailto:ryanjdisalle@gmail.com">ryanjdisalle@gmail.com</a></li>
+                <li class="listTwo">Phone: (678) 646-2512</li>
+                <li class="listTwo">LinkedIn: <a  class="linkColor" target=_blank href="https://www.linkedin.com/in/ryan-disalle-b3a372115">Ryan DiSalle</a></li>
+                <li class="listTwo">GitHub: <a  class="linkColor" target=_blank href="https://github.com/rdisalle">rdisalle</a></li>
+            </ul>
         </section>
-
-        <section>
-            Contact Info
-        </section>
-
     </main>
-    <footer role="links">Footer</footer>
+
+<!--Footer/Links to my stuff-->
+    <footer role="links">
+        <ul class="footThree">
+            <li class="listThree"><a target=_blank href="https://github.com/rdisalle"><img class="logo" src="github.png" alt="GitHub Logo"></a></li>
+            <li class="listThree"><a target=_blank href="https://www.linkedin.com/in/ryan-disalle-b3a372115"><img class="logo" src="LI-In-Bug.png" alt="LinkedIn Logo"></a></li>
+            <li class="listThree"><a href="mailto:ryanjdisalle@gmail.com"><img class="logo" src="gmail_icon.png" alt="Gmail Logo"></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
+
+
