@@ -11,6 +11,7 @@ body {
     background-size: cover;
     background-position: center;
     height: auto;
+    line-height: 35px;
 }
 
 nav {
@@ -37,7 +38,7 @@ nav {
     padding-left: 2px;
     color: black;
     display: inline-block;
-    top: -5px;
+    top: 5px;
 }
 
 .topList {
@@ -95,7 +96,7 @@ section, #opening {
 }
 
 #about {
-    height: 705px;
+    height: 720px;
     background-color: lightgray;
 }
 
@@ -108,7 +109,7 @@ section, #opening {
 }
 
 #projects {
-    height: 915px;
+    height: 935px;
     text-align: center;
     background-color: lightgray;;
 }
@@ -177,10 +178,10 @@ footer {
 
 @media only screen and (min-width: 400px) {
     #about {
-        height: 570px;
+        height: 545px;
     }
     #projects {
-        height: 815px;
+        height: 830px;
     }
     .myPic {
         display: inline-block;
@@ -192,6 +193,8 @@ footer {
         border-radius: 50%;
     }
     .name {
+        font-size: 20px;
+        margin-top: 3px;
         left: 50px;
     }
 }
@@ -201,14 +204,10 @@ footer {
         height: 195px;
     }
     #about {
-        height: 395px;
+        height: 405px;
     }
     #projects {
-        height: 710px;
-    }
-    .name {
-        font-size: 30px;
-        margin-top: 6px;
+        height: 725px;
     }
     .myPic {
         display: inline-block;
@@ -218,6 +217,11 @@ footer {
         margin: 8px;
         border: #465059 1px solid;
         border-radius: 50%;
+    }
+    .name {
+        font-size: 30px;
+        margin-top: 3px;
+        left: 50px;
     }
 }
 
@@ -237,7 +241,7 @@ footer {
         font-size: 25px;
     }
     #opening {
-        height: 245px;
+        height: 195px;
     }
     .aboutMe, .projectViews, .contactMe {
         font-size: 30px;
@@ -246,13 +250,13 @@ footer {
         font-size: 22px;
     }
     #contact {
-        height: 285px;
+        height: 240px;
     }
     #projects {
-        height: 720px;
+        height: 665px;
     }
     #about {
-        height: 370px;
+        height: 305px;
     }
     .listOne {
         font-size: 20px;
@@ -280,14 +284,10 @@ footer {
 @media only screen and (min-width: 1250px) {
     .name {
         font-size: 40px;
-        top: -20px;
         left: 50px;
     }
     .listOne {
         font-size: 22px;
-    }
-    .topList {
-        margin-top: 12px;
     }
     #opening, #about, #projects, #contact {
         margin-right: 100px;
@@ -326,16 +326,16 @@ footer {
         height: auto;
     }
     #opening {
-        height: 250px;
+        height: 230px;
     }
     #projects {
-        height: 770px;
+        height: 760px;
     }
     #contact {
-        height: 280px;
+        height: 265px;
     }
     #about {
-        height: 350px;
+        height: 340px;
     }
     .myPic {
         display: inline-block;
@@ -345,5 +345,20 @@ footer {
         margin: 4px;
         border: #465059 1px solid;
         border-radius: 50%;
+    }
+    .footThree {
+        padding-top: 3px; 
+    }
+    .logo {
+    width: 25px;
+    height: auto;
+    }
+}
+@media only screen and (min-width: 1600px) {
+     #about {
+        height: 320px;
+    }
+     #projects {
+        height: 730px;
     }
 }
