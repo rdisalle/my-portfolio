@@ -6,3 +6,4 @@ $(".jumper").on("click", function(currentTarget) {
         scrollTop: $($(this).attr('href')).offset().top 
     }, 500);
 });
+
