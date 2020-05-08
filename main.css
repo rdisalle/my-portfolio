@@ -2,13 +2,6 @@
     box-sizing: border-box;
   }
 
-@font-face {
-    font-family: 'kadwa';
-    src: url("Kadwa-Regular.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     margin-bottom: 40px;
     margin-top: 60px;
