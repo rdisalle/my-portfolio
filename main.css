@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-    background-color: #BFB3A4;
+    background-color: #002059;
     position: fixed;
     top: 0;
     left: 0;
@@ -168,11 +168,11 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     padding-left: 0;
-    padding-top: 7px;
+    padding-top: 4.5px;
 }
 
 .logo {
-    width: 15px;
+    width: 20px;
     height: auto;
 }
 
@@ -279,6 +279,13 @@ footer {
         border: #465059 1px solid;
         border-radius: 50%;
     }
+    .footThree {
+        padding-top: 1px; 
+    }
+    .logo {
+        width: 28px;
+        height: auto;
+        }
 }
 
 @media only screen and (min-width: 1250px) {
@@ -321,10 +328,6 @@ footer {
     .projectLink {
         font-size: 24px;
     }
-    .logo {
-        width: 20px;
-        height: auto;
-    }
     #opening {
         height: 230px;
     }
@@ -345,13 +348,6 @@ footer {
         margin: 4px;
         border: #465059 1px solid;
         border-radius: 50%;
-    }
-    .footThree {
-        padding-top: 3px; 
-    }
-    .logo {
-    width: 25px;
-    height: auto;
     }
 }
 @media only screen and (min-width: 1600px) {
