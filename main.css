@@ -22,6 +22,7 @@ nav {
     right: 0;
     height: 50px;
     border-bottom: #465059 2px solid;
+    float: left;
 }
 
 .navColor {
@@ -42,15 +43,17 @@ nav {
 }
 
 .topList {
+    float: right;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    padding-right: 4px;
     margin-top: 23px;
 }
 
 li {
     list-style-type: none;
+    border-left: 2px solid white;
+    padding-right: 5px;
+    padding-left: 1px;
 }
 
 .listOne {
