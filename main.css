@@ -51,7 +51,6 @@ nav {
 
 li {
     list-style-type: none;
-    border-left: 2px solid white;
     padding-right: 5px;
     padding-left: 1px;
 }
@@ -61,6 +60,7 @@ li {
     margin-bottom: 1px;
     font-size: 14px;
     color: #465059;
+    border-left: 2px solid white;
 }
 
 #opening {
@@ -112,7 +112,7 @@ section, #opening {
 }
 
 #projects {
-    height: 935px;
+    height: 2195px;
     text-align: center;
     background-color: lightgray;;
 }
@@ -132,7 +132,7 @@ section, #opening {
     margin-top: 0;
 }
 
-.quiz-app {
+.app-pic {
     width: 280px;
     height: auto;
 }
@@ -147,7 +147,7 @@ section, #opening {
 }
 
 #contact {
-    height: 235px;
+    height: 275px;
     background-color: lightgray;;
 }
 
@@ -184,7 +184,7 @@ footer {
         height: 545px;
     }
     #projects {
-        height: 830px;
+        height: 1990px;
     }
     .myPic {
         display: inline-block;
@@ -210,7 +210,7 @@ footer {
         height: 405px;
     }
     #projects {
-        height: 725px;
+        height: 1750px;
     }
     .myPic {
         display: inline-block;
@@ -256,7 +256,7 @@ footer {
         height: 240px;
     }
     #projects {
-        height: 665px;
+        height: 1625px;
     }
     #about {
         height: 305px;
@@ -335,7 +335,7 @@ footer {
         height: 230px;
     }
     #projects {
-        height: 760px;
+        height: 1675px;
     }
     #contact {
         height: 265px;
@@ -358,6 +358,6 @@ footer {
         height: 320px;
     }
      #projects {
-        height: 730px;
+        height: 1600px;
     }
 }
