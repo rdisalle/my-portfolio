@@ -7,7 +7,7 @@ body {
     margin-top: 60px;
     font-size: 0;
     font-family: 'Kadwa', serif;
-    background-image: url("abstract-architecture-background.jpg");
+    background-color: white;
     background-size: cover;
     background-position: center;
     height: auto;
@@ -21,7 +21,7 @@ nav {
     left: 0;
     right: 0;
     height: 50px;
-    border-bottom: #465059 2px solid;
+    border-bottom: lightgray 5px solid;
     float: left;
 }
 
@@ -39,14 +39,14 @@ nav {
     padding-left: 2px;
     color: black;
     display: inline-block;
-    top: 5px;
+    margin-top: 5px;
 }
 
 .topList {
     float: right;
     display: flex;
     flex-direction: row;
-    margin-top: 23px;
+    margin-top: 5px;
 }
 
 li {
@@ -93,14 +93,16 @@ li {
     text-decoration: underline;
 }
 
-section, #opening {
+#about, #projects, #contact, #opening {
     border: #103B73 2.5px solid;
     margin-bottom: 10px;
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #about {
-    height: 720px;
-    background-color: lightgray;
+    height: auto;
 }
 
 .aboutMe, .projectViews, .contactMe {
@@ -111,10 +113,16 @@ section, #opening {
     text-align: left;
 }
 
+.projectSection {
+    border-bottom: 3px solid lightgray;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
 #projects {
-    height: 2195px;
+    height: auto;
     text-align: center;
-    background-color: lightgray;;
 }
 
 .aboutText, .projectText, .contactInfo {
@@ -147,7 +155,7 @@ section, #opening {
 }
 
 #contact {
-    height: 275px;
+    height: auto;
     background-color: lightgray;;
 }
 
@@ -179,99 +187,40 @@ footer {
     height: auto;
 }
 
-@media only screen and (min-width: 400px) {
-    #about {
-        height: 545px;
-    }
-    #projects {
-        height: 1990px;
-    }
-    .myPic {
-        display: inline-block;
-        width: 35px;
-        height: auto;
-        position: absolute;
-        margin: 8px;
-        border: #465059 1px solid;
-        border-radius: 50%;
-    }
-    .name {
-        font-size: 20px;
-        margin-top: 3px;
-        left: 50px;
-    }
-}
-
-@media only screen and (min-width: 550px) {
-    #opening {
-        height: 195px;
-    }
-    #about {
-        height: 405px;
-    }
-    #projects {
-        height: 1750px;
-    }
-    .myPic {
-        display: inline-block;
-        width: 35px;
-        height: auto;
-        position: absolute;
-        margin: 8px;
-        border: #465059 1px solid;
-        border-radius: 50%;
-    }
-    .name {
-        font-size: 30px;
-        margin-top: 3px;
-        left: 50px;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    #opening, #about, #projects, #contact {
-       margin-right: 20px;
-       margin-left: 20px;
+@media only screen and (min-width: 768px) {
+    #about, #projects, #contact, #opening {
+        width: 600px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .welcome {
-        font-size: 30px;
-    }
-    .myName {
-        margin-top: 15px;
-        font-size: 35px;
-    }
-    .standardText {
         font-size: 25px;
     }
-    #opening {
-        height: 195px;
+    .name {
+        margin-left: 50px;
+        margin-top: 5px;
+        font-size: 25px;
     }
-    .aboutMe, .projectViews, .contactMe {
-        font-size: 30px;
-    }
-    .aboutText, .projectText, .contactInfo {
-        font-size: 22px;
-    }
-    #contact {
-        height: 240px;
-    }
-    #projects {
-        height: 1625px;
-    }
-    #about {
-        height: 305px;
-    }
-    .listOne {
+    .standardText {
         font-size: 20px;
     }
+    .aboutMe, .projectViews, .contactMe {
+        font-size: 22px;
+    }
+    .aboutText, .projectText, .contactInfo {
+        font-size: 18px;
+    }
+    .listOne {
+        font-size: 16px;
+    }
     .topList {
-        margin-top: 15px;
+        margin-top: 5px;
     }
     .title {
         font-size: 22px;
     }
     .projectLink {
-        font-size: 22px;
+        font-size: 18px;
     }
     .myPic {
         display: inline-block;
@@ -279,7 +228,7 @@ footer {
         height: auto;
         position: absolute;
         margin: 6px;
-        border: #465059 1px solid;
+        border: lightgray 1px solid;
         border-radius: 50%;
     }
     .footThree {
@@ -291,57 +240,29 @@ footer {
         }
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1200px) {
     .name {
-        font-size: 40px;
-        left: 50px;
+        font-size: 28px;
     }
     .listOne {
-        font-size: 22px;
+        font-size: 20px;
     }
     #opening, #about, #projects, #contact {
-        margin-right: 100px;
-        margin-left: 100px;
-     }
-     .aboutMe, .projectViews, .contactMe {
-        font-size: 32px;
+        width: 750px;
+        margin-right: auto;
+        margin-left: auto;
     }
-     .aboutText, .projectText, .contactInfo {
-        font-size: 23px;
-        line-height: 40px;
-    }
-    .welcome {
-        font-size: 32px;
-    }
+
     .myName {
-        font-size: 37px;
+        font-size: 24px;
     }
     .standardText {
-        font-size: 27px;
+        font-size: 20px;
         margin-top: 10px;
     }
     .title {
         font-size: 25px;
         margin-bottom: 20px;
-    }
-    .quiz-app {
-        width: 340px;
-        height: auto;
-    }
-    .projectLink {
-        font-size: 24px;
-    }
-    #opening {
-        height: 230px;
-    }
-    #projects {
-        height: 1675px;
-    }
-    #contact {
-        height: 265px;
-    }
-    #about {
-        height: 340px;
     }
     .myPic {
         display: inline-block;
@@ -351,13 +272,5 @@ footer {
         margin: 4px;
         border: #465059 1px solid;
         border-radius: 50%;
-    }
-}
-@media only screen and (min-width: 1600px) {
-     #about {
-        height: 320px;
-    }
-     #projects {
-        height: 1600px;
     }
 }
